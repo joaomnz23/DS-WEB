@@ -1,0 +1,101 @@
+/* ----- SELETOR TAG ----- */
+body {
+    background-color: #FFFAE3;
+}
+p {
+    color:#5D576B;
+}
+
+li {
+    color:#5D576B;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  color:#5D576B;
+}
+
+th, td {
+  border: 2px solid #5D576B;
+  padding: 10px;
+}
+
+img {
+  width: 100px;   /* tamanho da foto */
+  height: auto;
+  border-radius: 8px; /* bordas arredondadas */
+}
+
+
+body, p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    border: 1px solid #CCEEDE;
+    background-color: #CCEEDE;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/* ----- SELETOR CLASS ----- */
+.titulo-1 {
+    color: #F7567C;
+}
+
+.resumo {
+    color: #F7567C;
+}
+
+.titulo-personagens {
+    color: #F7567C;
+}
+
+.titulo-imagens {
+    color: #F7567C;
+}
+
+.kim{
+    height: 250px;
+    width: 100px;;
+}
+
+.div-resumo {
+    border: 1px solid #CCEEDE;
+    background-color: #CCEEDE;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.div-cont-resumo {
+    border: 10px solid #CCEEDE;
+    background-color: #CCEEDE;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.div-tituloP {
+    border: 1px solid #CCEEDE;
+    background-color: #CCEEDE;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.div-listaP {
+    border: 1px solid #CCEEDE;
+    background-color: #CCEEDE;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.titulo-1, .resumo, .titulo-personagens, .titulo-imagens {
+    font-family: 'Bangers', cursive;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>Atividade 03 - Formulários</head>
+    <body>
+        <h2>Exercício 2</h2>
+        <h3>Formulário de pesquisa e interesses</h3>
+
+        <form action="processa.php" method="get">
+            <label>Gênero:</label>
+            
+            <input type="radio" id="masculino" name="genero" value= "masculino" required>
+            <label for="masculino">Masculino</label>
+            
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+            
+            <br>
+            
+            <br>
+            
+            <label>Interesses:</label>
+            
+            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label>
+            
+            <input type="checkbox" id="esportes" name="interesses" value="esportes">
+            <label for="esportes">Esportes</label>
+            
+            <input type="checkbox" id="arte" name="interesses" value="arte">
+            <label for="arte">Arte</label>
+            
+            <input type="checkbox" id="musica" name="interesses" value="musica">
+            <label for="musica">Música</label>
+
+            <br>
+            <br>
+
+            <label for="carros">Escolha um carro:</label> <br>
+            
+            <select id="carros" name="carros" multiple>
+                
+                <optgroup label="Sedans">
+                    <option value="corolla">Toyota Corolla</option>
+                    <option value="civic">Honda Civic</option>
+                </optgroup>
+                
+                <optgroup label="SUVs">
+                    <option value="crv">Honda CR-V</option>
+                    <option value="rav4">Toyota RAV4</option>
+                </optgroup>
+
+            </select>
+
+            <br>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

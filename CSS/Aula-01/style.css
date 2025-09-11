@@ -1,0 +1,36 @@
+/* ----- Comentário em CSS ----- */
+/* ----- Seletores de CSS ----- */
+
+/* ----- Seletor Universal -----
+
+*
+{
+    color:brown;
+}
+
+*/
+
+/* ----- Seletor Tag HTML ----- */
+p{
+    color:darkred;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* ----- Seletor Class ----- */
+.canta-fdp {
+    color:deepskyblue;
+}
+
+/* ----- Seletor ID ----- */
+#poxa {
+    /* Codigo da cor RGB */
+    color:rgb(0, 100, 0);
+}
+
+
+/* body { */
+    /* Código da cor hexadecimal */
+    /*background-color: #ffebcd; */
+    /* background: linear-gradient(to top, yellow, red) */
+    /* tamanho (ajuste como quiser) */

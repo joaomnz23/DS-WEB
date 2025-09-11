@@ -1,0 +1,141 @@
+body {
+    background-color: #F7BAB6;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.HR1 {
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+}
+
+.HR2 {
+    border: 2px solid black;
+    margin: 10px 0px 0px 0px;
+}
+
+h1 
+{
+    background-color: #EE6E67;
+    color:#f0f0f0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h3, h2 
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p
+{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.div_noticia, .td1_table_noticia, .td2_table_noticia
+{
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    
+}
+
+.div_noticia 
+{
+    width: 1000px;
+}
+
+.imagem_noticia1 {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+}
+
+.imagem_noticia2 {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+}
+
+table, th, td 
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+
+th
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;  
+}
+
+td
+{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+.noticias_relacionadas tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.noticias_relacionadas tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.noticias_relacionadas tr:first-child {
+    background-color: #d9d9d9;
+    font-weight: bold;
+}
+
+
+.imgs_noticia
+{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.paragrafos_corpo_noticia 
+{
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.noticias_relacionadas 
+{
+    margin: 0 auto; 
+    height: auto;
+    width: 600px;
+}
