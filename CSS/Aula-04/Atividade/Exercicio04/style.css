@@ -1,0 +1,15 @@
+.principal {
+    background-color: #B892FF;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+.dentro {
+    background-color: #6E44FF;
+    width: 200px;
+    height: 100px; 
+    margin: 10px 20px 10px 20px;  
+    text-align: center;
+    align-content: center; 
+}

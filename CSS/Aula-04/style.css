@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+ 
+.box 
+{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 10px 50px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 50px;
+}
+
+/*
+.div_centralizada {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cont1 {
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.cont2 {
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+}
+*/
