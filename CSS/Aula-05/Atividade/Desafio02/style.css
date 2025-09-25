@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.LetraJ, .LetraO1, .LetraA, .LetraO2, .LetraM,.LetraU, .LetraN, .LetraI, .LetraZ, .Espaço{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.LetraJ {
+    background-color: aliceblue;
+    position: sticky;
+}
+
+.LetraO1 {
+    background-color: antiquewhite;
+    position: sticky;
+    margin-left: 80px;
+}
+
+.LetraA {
+    background-color: aqua;
+    position: sticky;
+    margin-left: 160px;
+}
+
+.LetraO2 {
+    background-color: aquamarine;
+    position: sticky;
+    margin-left: 240px;
+}
+
+.Espaço {
+    margin-left: 320px;
+}
+
+.LetraM {
+    background-color: azure;
+    position: sticky;
+    margin-left: 400px;
+}
+
+.LetraU {
+    background-color: bisque;
+    position: sticky;
+    margin-left: 480px;
+}
+
+.LetraN {
+    background-color: blue;
+    position: sticky;
+    margin-left: 560px;
+}
+
+.LetraI {
+    background-color: blueviolet;
+    position: sticky;
+    margin-left: 640px;
+}
+
+.LetraZ {
+    background-color: yellow;
+    position: sticky;
+    margin-left: 720px;
+}
+
+.espaco-final {
+    height: 1000px;
+}
